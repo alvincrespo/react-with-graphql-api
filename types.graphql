@@ -1,0 +1,12 @@
+type Show @model {
+  id: ID! @isUnique
+  createdAt: DateTime! # read-only (managed by Graphcool)
+  updatedAt: DateTime! # read-only (managed by Graphcool)
+  
+  title: String!
+  year: String
+  description: String!
+  poster: String
+  imdbId: String
+  trailer: String
+}
