@@ -22,7 +22,7 @@ Install the node version specified in the repo:
 nvm install $(cat .nvmrc)
 ```
 
-#### [Graphcool CLI]
+#### [Graphcool CLI](https://www.graph.cool/docs/reference/graphcool-cli/overview-zboghez5go/)
 
 ```
 npm install -g graphcool
